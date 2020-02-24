@@ -82,16 +82,19 @@ footer nav li a{
 }
 
 @media (max-width: 720px){
-    header{ 
+    header,.social-links{ 
         flex-direction: column;
     }
     header nav ul{
         flex-direction: column;        
     }
-    header nav {
+    header nav,footer nav {
         width: auto;     
     }
     header img{
         margin: 0 0 15px 0;
+    }
+    footer {
+        align-items: flex-start;
     }
 }
