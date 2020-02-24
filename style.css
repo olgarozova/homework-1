@@ -59,9 +59,8 @@ header nav ul{
     display: block;    
     font-size: 20px;    
 }
-#menu-nav li a:hover{
-    background: royalblue;
-    color: white;
+#main-menu li a:hover{
+    color: #f4791d;
 }
 
 @media (max-width: 720px){
