@@ -122,6 +122,10 @@ main .product{
 .product .price{
     color: #f84147;
 }
+.product-img{
+    display: block;
+    text-align: center;
+} 
 .product-wrapper {
     background: #e0e0e0;
     padding: 10px;
