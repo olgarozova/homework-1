@@ -215,22 +215,28 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 @media (max-width: 720px){
-    header,.social-links{ 
+    header,.social-links,#page{ 
         flex-direction: column;
     }
     header nav ul{
         flex-direction: column;        
     }
-    header nav,footer nav {
+    header nav,footer nav,aside{
         width: auto;     
+    }
+    main,main .product{
+        width: 100%;
     }
     header img{
         margin: 0 0 15px 0;
-    }
-    main .product {
-        width: 100%;
-    }
+    }    
     footer {
         align-items: flex-start;
     }
+    aside{
+        display: flex;
+    }
+    .sidebar-content{
+        margin: 0 auto;
+    }    
 }
