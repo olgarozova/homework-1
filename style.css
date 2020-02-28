@@ -102,10 +102,10 @@ main{
     width: 78%; 
     display: flex;
     flex-wrap: wrap;
-    /*justify-content: space-between;*/
+    justify-content: flex-start;
 }
 main .product{
-    width: 20%;  /*187px*/  
+    width: 20%;    
     padding: 10px;
     margin-bottom: 10px;
     min-width: 187px;
@@ -160,6 +160,7 @@ button{
     color: #00a046;
     font-size: 12px;
 }
+
 input,aside button{
     height: 32px;
     font-size: 14px;
@@ -216,6 +217,22 @@ input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+@media (max-width: 1280px){
+    main .product {
+        width: 25%;
+    }
+}
+@media (max-width: 975px){
+    main .product {
+        width: 33.3%;
+    }
+}
+@media (max-width: 800px){
+    main .product {
+        width: 50%;
+    }
 }
 
 @media (max-width: 720px){
